@@ -1,17 +1,72 @@
 .out{
+  display: flex;
+  margin: 100px;
   height: 350px;
   width: 350px;
+  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+}
+
+
+main{
+  color: white;
 }
 
 body {
+  margin: 100px;
   text-align: center;
+  background-image: url("../img/background.gif")
 }
 
 #searchtext{
   text-align: center;
-  width: 200px;
+  width: 250px;
+  height: 25px;
+
 } 
 #searchgifs {
-
-  width: 50px
+  align-items: center;
+  height: 30px;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 3px;
+  text-decoration: none;
+  user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
 }
+
+#delete {
+  align-items: center;
+  height: 30px;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  min-width: 40px;
+  padding: 3px;
+  text-decoration: none;
+  user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+
