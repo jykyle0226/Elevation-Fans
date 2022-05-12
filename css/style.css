@@ -1,0 +1,17 @@
+.out{
+  height: 350px;
+  width: 350px;
+}
+
+body {
+  text-align: center;
+}
+
+#searchtext{
+  text-align: center;
+  width: 200px;
+} 
+#searchgifs {
+
+  width: 50px
+}
