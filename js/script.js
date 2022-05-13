@@ -1,9 +1,8 @@
-function getData(event){
-  event.preventDefault()
+function getData(){
   const APIkey = "TY3ijVkOquSjEXdbNNoaPtHZ5V7RnzIc"
-  const url = $.ajax(`https://api.giphy.com/v1/gifs/search?q="${input}"+&api_key=${APIkey}&limit=4`)
-  const newGif = document.querySelector('.out')
   const input = $("#searchtext").val()
+  const url = $.ajax(`https://api.giphy.com/v1/gifs/search?q="${input}"+&api_key=${APIkey}&limit=3`)
+  const newGif = document.querySelector('.out')
   const deletbtn = document.getElementById('delete')
 
 
