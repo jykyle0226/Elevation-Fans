@@ -2,7 +2,7 @@ function getData(){
   const deletbtn = document.getElementById('delete')
   const APIkey = "TY3ijVkOquSjEXdbNNoaPtHZ5V7RnzIc"
   const input = $("#searchtext").val()
-  const url = $.ajax(`http://api.giphy.com/v1/gifs/search?q="${input}"+&api_key=${APIkey}&limit=28`)
+  const url = $.ajax(`https://api.giphy.com/v1/gifs/search?q="${input}"+&api_key=${APIkey}&limit=28`)
   const newGif = document.querySelector('.out')
 
 
