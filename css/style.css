@@ -1,8 +1,6 @@
 .out{
   display: flex;
   margin: 100px;
-  /* height: 350px;
-  width: 350px; */
   justify-content: flex-start;
   flex-direction: row;
   flex-wrap: wrap;
