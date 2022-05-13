@@ -1,14 +1,17 @@
 .out{
   display: flex;
   margin: 100px;
-  height: 350px;
-  width: 350px;
+  /* height: 350px;
+  width: 350px; */
   justify-content: flex-start;
   flex-direction: row;
   flex-wrap: wrap;
   
 }
 
+.deletebtn{
+  margin-top: 80px;
+}
 
 main{
   color: white;
