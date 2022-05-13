@@ -12,6 +12,6 @@ JavaScript | CSS | HTML | Ajax | jQuery
 [click here](https://main--astonishing-dieffenbachia-49841b.netlify.app/) to see the deployed page!
 
 ## Future Enhancements:
- * randomizing using (Math.floor Math.random)
+ * random button (Math.floor Math.random)
  * refresh
  * Delete individual gif from the list
